@@ -18,7 +18,7 @@ NC = \033[0m
 $(LIBFT):
 			@make -C ./Libft
 
-$(MLX)		@cd MLX42 && cmake -B build && cmake --build build -j4
+$(MLX):		@cd MLX42 && cmake -B build && cmake --build build -j4
 
 $(NAME):	$(OBJS) $(MLX) $(LIBFT) $(HEADER)
 				@$(CC) $(OBJS) $(MLX) $(LIBFT) -ldl -pthread -lm -L$(GLFW_DIR) -lglfw -I $(MLX_HEADER) -o $(NAME)
