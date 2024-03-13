@@ -14,5 +14,15 @@
 # define SO_LONG_H
 
 #include "./Libft/libft.h"
+#include "./MLX42/include/MLX42/MLX42.h"
+#include <fcntl.h>
+
+typedef struct s_data
+{
+    void    *wdw;
+    char    **map;
+
+} t_data;
+
 
 #endif
