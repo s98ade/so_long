@@ -1,0 +1,22 @@
+Shit I have to use:
+
+1. mlx_init
+2. mlx_key_hook
+3. mlx_loop
+4. mlx_load_png
+5. mlx_texture_to_image
+6. mlx_delete_texture
+7. mlx_close_window
+8. mlx_image_to_window
+9. mlx_delete_image
+
+What has to be done:
+
+1. read map - parse map
+2. init window with images
+3. init actions -> moves, collectables, exit, destroy images, close window, count collectables, etc [...]
+
+What edge-cases needs to be handled:
+
+1. Hanlde memory issues
+2. handle incorrect map constellation

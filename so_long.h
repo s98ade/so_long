@@ -19,10 +19,13 @@
 
 typedef struct s_data
 {
+    int     map_h;
+    int     map_w;
     void    *wdw;
     char    **map;
 
 } t_data;
 
+int main(void);
 
 #endif
